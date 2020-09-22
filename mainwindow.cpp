@@ -18,7 +18,7 @@ void MainWindow::on_pushButton_clicked()
 {   int num1; // 阳离子随机数
     int num2; // 阴离子随机数
 
-    const char*cationic[10] = {"H", "Na", "Mg", "Ca", "Fe", "AI", "K", "NH4", "Cu", "Zn"}; // 阳离子数组
+    const char*cationic[10] = {"H", "Na", "Mg", "Ca", "Fe", "Al", "K", "NH4", "Cu", "Zn"}; // 阳离子数组
     const char*anionic[9] = {"CI", "O", "S", "SO4", "CO3", "NO3", "SO3", "PO4", "OH"}; // 阴离子数组
 
     num1 = rand() % 10;
